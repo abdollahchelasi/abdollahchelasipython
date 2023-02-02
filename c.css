@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+.css-1fv8s86.e16nr0p34{
+    font-family: 'Lalezar', cursive;
+    
+    padding: 3px;
+    text-align: center;
+    text-shadow: black 2px 2px 17px;
+    color: rgb(156, 161, 238);
+}
+.css-10trblm.e16nr0p30{
+    font-family: 'Lalezar', cursive;
+}
+.css-1avcm0n.e8zbici2{
+background: linear-gradient(rgb(31, 31, 70),rgb(104, 50, 50));
+}
+
+.block-container.css-18e3th9.egzxvld2{
+    background: linear-gradient(rgb(150, 108, 89),rgb(104, 50, 50));
+}
+/* Matn h1 */
+.css-10trblm.e16nr0p30{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background: linear-gradient(rgb(19, 19, 41),rgb(29, 21, 21));
+}
+.css-1fv8s86.e16nr0p34 form{
+    padding: 5px;
+    box-shadow: rgb(0, 0, 0) 1px 1px 6px;
+    color: white;
+    border-radius: 11px;
+    padding: 9px;
+    border-style: groove;
+    border-color: rgb(236, 170, 93);
+
+}
+.css-1fv8s86.e16nr0p34 p a{
+    background: linear-gradient(rgb(19, 19, 41),rgb(29, 21, 21));
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 4px;
+    border-style: groove;
+}
+.css-1fv8s86.e16nr0p34 p a:hover{
+    background: linear-gradient(rgb(23, 23, 219),rgb(230, 22, 22));
+
+}
+
+
+
+.css-1v0mbdj.etr89bj1{
+    box-shadow: rgb(0, 0, 0) 1px 1px 15px;
+    margin-top: 10px;
+
+}
+.css-1v0mbdj.etr89bj1:hover{
+    box-shadow: rgb(255, 255, 255) 1px 1px 5px;
+
+}
+
+#MainMenu {visibility : hidden;}
+footer {visibility : hidden;}
+.block-container {direction : ltr}
