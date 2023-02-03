@@ -94,7 +94,7 @@ with st.container():
 
     with col2:
         with st.expander("عمر الزبير المرزوقي" ,expanded=True):
-            st.image("/images/omar.png")
+            st.image("images/omar.png")
             st.write("""
 اول حكم يكسر قاعدة احتكار حكام أوربا على نهائيات كاس العالم لكرة اليد """)
             st.markdown("[عمر الزبير المرزوقي](https://omarzubair.vercel.app/)")
