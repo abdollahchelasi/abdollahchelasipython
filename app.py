@@ -97,7 +97,7 @@ with st.container():
             st.image("/images/omar.png")
             st.write("""
 اول حكم يكسر قاعدة احتكار حكام أوربا على نهائيات كاس العالم لكرة اليد """)
-            st.markdown("[عمر الزبير المرزوقي](http://amoozeshgahjazire.ir/)")
+            st.markdown("[عمر الزبير المرزوقي](https://omarzubair.vercel.app/)")
     
         with col2:
             with st.expander("Mazaya Car Rental, Dubai" ,expanded=True):
