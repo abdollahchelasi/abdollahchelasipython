@@ -93,11 +93,11 @@ with st.container():
     
 
     with col2:
-        with st.expander(" آموزشگاه رانندگی جزیره" ,expanded=True):
-            st.image("https://abdollahchelasi.vercel.app/amoozesh.png")
+        with st.expander("عمر الزبير المرزوقي" ,expanded=True):
+            st.image("/images/omar.png")
             st.write("""
-آموزشگاه رانندگی جزیره ای در جزیره زیبای قشم    """)
-            st.markdown("[Island driving school](http://amoozeshgahjazire.ir/)")
+اول حكم يكسر قاعدة احتكار حكام أوربا على نهائيات كاس العالم لكرة اليد """)
+            st.markdown("[عمر الزبير المرزوقي](http://amoozeshgahjazire.ir/)")
     
         with col2:
             with st.expander("Mazaya Car Rental, Dubai" ,expanded=True):
