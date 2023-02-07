@@ -68,7 +68,7 @@ with st.container():
             st.image("images/pvc.png")
             st.write("""
 اجرای نصب پی وی سی در سراسر جزیره قشم        """)
-            st.markdown("[Pvc-Ramkan](pvcahmad.ir)")
+            st.markdown("[Pvc-Ramkan](http://pvcahmad.ir)")
         
    
     with col3:
@@ -76,7 +76,7 @@ with st.container():
                 st.image("images/upvc.png")
                 st.write("""
 تولیدی درب و پنجره UPVC نوین ترک , فروش و نصب PVC , طراحی یا ساخت و اجرای انواع سایبان PVC        """)
-                st.markdown("[Dekorasion Shademan](pvcshademan.ir)")
+                st.markdown("[Dekorasion Shademan](http://pvcshademan.ir)")
     
     
     
