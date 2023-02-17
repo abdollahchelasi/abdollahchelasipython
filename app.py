@@ -1,7 +1,28 @@
 import streamlit as st
-import requests
+import streamlit.components.v1 as components
 
-st.set_page_config(page_title="عبدالله چلاسی - طراح و برنامه نویس",page_icon="images/a.jpg",layout="wide",)
+
+st.set_page_config(page_title="عبدالله چلاسی - طراح و برنامه نویس",page_icon="images/a.jpg",layout="wide")
+components.html(
+    """
+    
+    <head>
+
+    <meta charset="UTF-8">
+    <meta name="description"
+    content = "طراحی سایت با بهترین کیفیت در کمترین زمان به صورت قسطی انجام میشود"
+    >
+    <meta name="keywords"
+    content="عبدالله چلاسی , طراحی سایت با کمترین زمان , عبدالله قشم , سفارش سایت"
+    >
+    <meta name="author" content="عبدالله چلاسی">
+    <meta name = "viewport"
+    content="width=device-width,initial-scale=1.0">
+
+    </head>
+
+    """
+)
 
 with open('c.css') as f:
     st.markdown(f"<style> {f.read()} </style>",unsafe_allow_html=True)
@@ -75,7 +96,7 @@ with st.container():
             with st.expander("دکوراسیـون شادمان - رمکان" ,expanded=True):
                 st.image("images/upvc.png")
                 st.write("""
-تولیدی درب و پنجره UPVC نوین ترک , فروش و نصب PVC , طراحی یا ساخت و اجرای انواع سایبان PVC        """)
+تولیدی درب و پنجره یو پی وی سی نوین ترک , فروش و نصب پی وی سی , طراحی یا ساخت و اجرای انواع سایبان پی وی سی        """)
                 st.markdown("[Dekorasion Shademan](http://pvcshademan.ir)")
     
     
@@ -109,7 +130,7 @@ with st.container():
         
         with col1:
 
-            with st.expander("⚽ Delfin Gorbadan cultural and sports club ⚽" ,expanded=True):
+            with st.expander("⚽ باشگاه دلفین گربدان ⚽" ,expanded=True):
                 st.image("images/gorbedan.png")
                 st.write("""
 باشگاه فوتبال دلفین گربدان یکی از پرافتخارترین و پرطرفدارترین باشگاه های جزیره قشم است. دلفین گربدان قبل از انقلاب ستاره جنوب گربدان نامیده می شد. این باشگاه اکنون در دسته دوم قشم قرار دارد. دلفین گربدان در سال 1324 در جزیره قشم روستای گربدان تأسیس شد. قرار داده شده است        """)
@@ -131,8 +152,8 @@ with st.container():
     <input type="hidden" name="_captcha" value="false">
      <input type="text" name="name" placeholder="نام شما" required>
      <input type="email" name="email" placeholder="ایمیل شما" required>
-     <textarea name="message" placeholder="شماره تماس تون رو ارسال کنید" required ></textarea>
-     <button type="submit">Send</button>
+     <textarea name="message" placeholder=" شماره تماس "  required ></textarea>
+     <button type="submit">ارسال</button>
     </form> 
     """
 
